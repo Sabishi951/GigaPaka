@@ -6,6 +6,7 @@
     });
 
 GAME.emitOrder = (data) => GAME.socket.emit('ga',data);
+var tabela99=[];
     var freeAssist = document.createElement('button');
     freeAssist.innerHTML = "ASYSTUJ WSZYSTKIM ZA DARMO"
     freeAssist.className = "newBtn option"
